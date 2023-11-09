@@ -5,7 +5,7 @@ int main() {
 	int array[ROWS][COLUMNS] = {{  1,  2,  3},
 								{  4,  5, -6},
 								{  7,  8,  9},
-								{-10, 11, 12} };
+								{-10, 11, 12}};
 	printf("The matrix itself :\n");
 	for (int index = 0; index < ROWS; index++) {
 		for (int j = 0; j < COLUMNS; j++) {
